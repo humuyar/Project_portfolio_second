@@ -1,0 +1,14 @@
+<svg width="1188" height="948" viewBox="0 0 1188 948" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M1187.073,685.905C1187.073,830.519 1036.495,947.753 850.747,947.753C665.001,947.753 514.423,830.519 514.423,685.905C514.423,541.291 665.001,424.059 850.747,424.059C1036.495,424.059 1187.073,541.291 1187.073,685.905Z" fill="url(#pf_0_136_839)"/>
+<path d="M850.748,441C850.748,684.558 660.302,882 425.374,882C190.446,882 0,684.558 0,441C0,197.442 190.446,0 425.374,0C660.302,0 850.748,197.442 850.748,441Z" fill="url(#pf_0_136_840)"/>
+<defs>
+<linearGradient id="pf_0_136_839" x1="850.748" y1="424.059" x2="850.748" y2="947.752" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7840AD" stop-opacity="0.36"/>
+<stop offset="1" stop-color="#2957A3" stop-opacity="0.87"/>
+</linearGradient>
+<linearGradient id="pf_0_136_840" x1="425.374" y1="0" x2="361.912" y2="973.428" gradientUnits="userSpaceOnUse">
+<stop offset="0.282" stop-color="#301080" stop-opacity="0.6"/>
+<stop offset="0.733" stop-color="#7840AD" stop-opacity="0.36"/>
+</linearGradient>
+</defs>
+</svg>
