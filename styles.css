@@ -177,7 +177,7 @@ img {
   position: absolute;
   top: 20%;
   left: 40%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -313,32 +313,32 @@ img {
     display: none;
   }
 
- .nav1 {
-    display:table-row;  
- }
-
- .navbar {
-  color: white;
-  display: flex;
-  flex-flow: row;
-  width: \x;
-  border-radius: 0%;
-  padding: 0px;
-  margin: 0px;
-  list-style-type: none;
-  height: 50px;
-  background: none;
-  margin-left: 0px;
-  text-decoration: none;
-  position: fixed;
-  margin-left: 200px; 
+  .nav1 {
+    display: table-row;  
+  }
+ 
+  .navbar {
+    color: white;
+    display: flex;
+    flex-flow: row;
+    width: \x;
+    border-radius: 0%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    height: 50px;
+    background: none;
+    margin-left: 0px;
+    text-decoration: none;
+    position: fixed;
+    margin-left: 200px; 
   }
 }
 
 @media screen and (min-width: 786px) {
   .ellipse4 {
     position: fixed;
-    left: 0px;
+    left: 1px;
     width: 25%;
   }
 
@@ -398,7 +398,7 @@ img {
   }
 
  .nav1 {
-    display:table-row;  
+    display: table-row;  
   }
 
   .navbar {
@@ -406,13 +406,13 @@ img {
     display: flex;
     flex-flow: row;
     width: 30%;
-    border-radius: 0%;
-    padding: 0px;
-    margin: 0px;
+    border-radius: 1%;
+    padding: 1px;
+    margin: 1px;
     list-style-type: none;
     height: 50px;
     background: none;
-    margin-left: 0px;
+    margin-left: 1px;
     text-decoration: none;
     position: fixed;
     margin-left: 900px;
@@ -423,14 +423,12 @@ img {
   #home {
     margin-top: 50px;
     background: rgba(47, 47, 138, 1);
-    /* line-height: 50px; */
     border-radius: 100px 30px 30px 30px;
     margin-left: 150px;
-    /* padding-right: 800px; */
   }
 
   .hire {
-  margin-bottom: 150px;
+    margin-bottom: 150px;
   }
 
   .cv {
@@ -448,17 +446,17 @@ img {
 
   #hide {
     display: inline;
-    margin-top: 0px;
+    margin-top: 1px;
   }
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1024px) {
   .ellipse4 {
     position: fixed;
-    left: 0px;
+    left: 1px;
     width: 15%;
   }
-  
+
   .ellipse3 {
     position: fixed;
     width: 15%;
