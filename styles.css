@@ -78,7 +78,7 @@
 
 img {
   max-width: 100%;
-  max-height:100%;
+  max-height: 100%;
 }
 
 .image-container {
@@ -176,10 +176,10 @@ img {
   margin-top: 1px;
   position: absolute;
   top: 20%;
-  left: 40%; 
+  left: 40%;
   transform: translate(-50%, -50%); 
   color: #fff;
-  font-size: 20px; 
+  font-size: 20px;
   text-align: center;
   height: 70%;
   width: 50%;
@@ -190,7 +190,7 @@ img {
 .circle {
   margin-top: 100px;
   position: absolute;
-  top: 30%; 
+  top: 30%;
   left: 100%;
   bottom: 30%;
   transform: translate(-60%, -80%);
@@ -271,7 +271,7 @@ img {
 .padding1 {
   margin-top: 80px;
   margin-left: 60px;
-  font-family: Poppins;
+  font-family: sans-serif;
   font-size: 10px;
 }
 
@@ -291,26 +291,32 @@ img {
 
 @media only screen and (min-width: 786px) {
   .body {
-  background-color: rgba(2, 2, 38, 0.914);
+    background-color: rgba(2, 2, 38, 0.914);
   }
+
   .hide-ellipse-navbar {
     display: none;
   }
 }
+
 /* 786px screen size */
-@media only screen and (min-width: 786px){
+@media only screen and (min-width: 786px) {
   .size {
     display: none;
   }
+
   .sizenav {
     display: none;
   }
+
   .x {
     display: none;
   }
+
  .nav1 {
     display:table-row;  
  }
+
  .navbar {
   color: white;
   display: flex;
@@ -329,12 +335,13 @@ img {
   }
 }
 
-@media screen and (min-width: 786px){
+@media screen and (min-width: 786px) {
   .ellipse4 {
     position: fixed;
     left: 0px;
     width: 25%;
   }
+
   .ellipse3 {
     position: fixed;
     width: 25%;
@@ -352,9 +359,11 @@ img {
     margin-left: 90px;
     margin-right: 65px;
   }
+
   .hire {
   margin-bottom: 150px;
   }
+
   .cv {
     margin-bottom: 100px;
   }
@@ -367,6 +376,7 @@ img {
     margin-top: 50px;
     margin-left: 80px;
   }
+
   #hide {
     display: inline;
     margin-top: 0px;
@@ -374,19 +384,23 @@ img {
 }
 
 /* 1024px screen size */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .size {
     display: none;
   }
+
   .sizenav {
     display: none;
   }
+
   .x {
     display: none;
   }
+
  .nav1 {
     display:table-row;  
   }
+
   .navbar {
     color: white;
     display: flex;
@@ -414,9 +428,11 @@ img {
     margin-left: 150px;
     /* padding-right: 800px; */
   }
+
   .hire {
   margin-bottom: 150px;
   }
+
   .cv {
     margin-bottom: 100px;
   }
@@ -429,6 +445,7 @@ img {
     margin-top: 50px;
     margin-left: 80px;
   }
+
   #hide {
     display: inline;
     margin-top: 0px;
@@ -441,6 +458,7 @@ img {
     left: 0px;
     width: 15%;
   }
+  
   .ellipse3 {
     position: fixed;
     width: 15%;
