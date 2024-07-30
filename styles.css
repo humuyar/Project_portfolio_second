@@ -76,6 +76,11 @@
   margin-left: 10px;
 }
 
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
 .image-container {
   position: relative;
   display: inline-block;
@@ -168,9 +173,9 @@
 }
 
 .overlay-text1 {
-  margin-top: 0px;
+  margin-top: 1px;
   position: absolute;
-  top: 20%; 
+  top: 20%;
   left: 40%; 
   transform: translate(-50%, -50%); 
   color: #fff;
@@ -186,10 +191,10 @@
   margin-top: 100px;
   position: absolute;
   top: 30%; 
-  left: 100%; 
+  left: 100%;
   bottom: 30%;
-  transform: translate(-60%, -80%); 
-  background: radial-gradient(50% 50% at 24.63% 56.9%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+  transform: translate(-60%, -80%);
+  background: radial-gradient(50% 50% at 24.63% 56.9%, #763cac 0%, rgba(50, 15, 133, 0) 100%);
   border-radius: 50%;
   padding: 100px;
 }
@@ -200,7 +205,7 @@
 }
 
 .work1 {
-  background: radial-gradient(46.25% 45.19% at 50% 50%, #4652C0 0%, #080B3A 100%);
+  background: radial-gradient(46.25% 45.19% at 50% 50%, #4652c0 0%, #080b3a 100%);
   margin-top: 20px;
   margin-right: 60px;
 }
@@ -215,7 +220,6 @@
   display: inline-block;
   margin-left: 10px;
   margin-right: 35px;
-  display: block;
   width: 100%;
   height: auto;
 }
@@ -223,11 +227,11 @@
 .overlay-text2 {
   margin-top: 60px;
   position: absolute;
-  top: 20%; 
-  left: 40%; 
-  transform: translate(-50%, -50%); 
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 20px; 
+  font-size: 20px;
   text-align: center;
   height: 70%;
   width: 90%;
@@ -241,9 +245,8 @@
 
 .ellipse2 {
   position: absolute;
-  left: 0px;
+  left: 1px;
   width: 25%;
-
 }
 
 .ellipse1 {
@@ -256,11 +259,6 @@
 
 .container3 {
   display: flex;
-}
-
-img {
-  max-width: 100%;
-  max-height:100%;
 }
 
 .text {

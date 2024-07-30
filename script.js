@@ -7,7 +7,7 @@ hamburgerMenu.addEventListener('click', () => {
 });
 // professional skill
 const professionaSskill = document.getElementById('professional-skill');
-const mobileMenu1 = document.getElementById("mobile-menu1");
+const mobileMenu1 = document.getElementById('mobile-menu1');
 
 professionaSskill.addEventListener('click', () => {
   mobileMenu1.classList.toggle('hidden');
@@ -29,7 +29,7 @@ softskill.addEventListener('click', () => {
 // close button for humbergurmenu
 const closebutton = document.getElementById('close-button');
 closebutton.addEventListener('click', () => {
-   mobileMenu.classList.toggle('hidden');
+  mobileMenu.classList.toggle('hidden');
 });
 // for professional skill
 const closebutton1 = document.getElementById('close-button1');
@@ -37,9 +37,9 @@ closebutton1.addEventListener('click', () => {
   mobileMenu1.classList.toggle('hidden');
 });
 // for language
-const closebutton2 = document.getElementById("close-button2");
-closebutton2.addEventListener("click", () => {
-   mobileMenu2.classList.toggle("hidden");
+const closebutton2 = document.getElementById('close-button2');
+closebutton2.addEventListener('click', () => {
+  mobileMenu2.classList.toggle('hidden');
 });
 // for soft skill
 const closebutton3 = document.getElementById('close-button3');
