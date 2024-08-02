@@ -446,7 +446,7 @@ img {
     margin-top: 50px;
     height: 400px;
   }
- 
+
   #abbout {
     position: absolute;
     justify-content: center;
@@ -466,7 +466,7 @@ img {
     position: relative;
     display: inline-block;
   }
-  
+
   .image-container img {
     display: block;
     height: auto;
@@ -562,7 +562,7 @@ img {
     margin-top: 10px;
     margin-bottom: 30px;
   }
-  
+
   .about2 {
     background: linear-gradient(180deg, rgba(48, 16, 128, 0.6) 0%, rgba(120, 64, 173, 0.36) 100%);
     border-radius: 50%;
@@ -573,7 +573,7 @@ img {
     font-size: 15px;
     margin-top: 1px;
   }
-  
+
   .about3 {
     background: linear-gradient(180deg, rgba(48, 16, 128, 0.6) 0%, rgba(120, 64, 173, 0.36) 100%);
     border-radius: 50%;
@@ -586,20 +586,20 @@ img {
   }
 
   .card {
-    background: linear-gradient(180deg, #763CAC 0%, #301846 100%);
+    background: linear-gradient(180deg, #763cac 0%, #301846 100%);
     display: inline-block;
     width: 25rem;
     height: 25rem;
     border-radius: 10%;
     margin-right: 60%;
   }
-  
+
   .card0 {
-   width: 80%;
-   height: 30%;
-   margin-left: 10px;
+    width: 80%;
+    height: 30%;
+    margin-left: 10px;
   }
-  
+
   .card2 {
     width: 80%;
     margin-left: 50px;
@@ -611,10 +611,10 @@ img {
   .home {
     position: relative;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     border-radius: 100px 30px 30px 30px;
     margin-right: 1px;
-    margin-left: 90px; 
+    margin-left: 90px;
     background: rgba(47, 47, 138, 1);
     width: 1300px;
     height: 500px;
