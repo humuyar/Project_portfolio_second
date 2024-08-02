@@ -1120,7 +1120,6 @@ footer {
     margin-top: 600px;
   }
 
-  
   .card {
     background: linear-gradient(180deg, #763cac 0%, #301846 100%);
     display: inline-block;
@@ -1149,7 +1148,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .top-left-image {
     position: absolute; /* Position the image absolutely within the contact div */
     top: -160px; /* Adjust this value to position the image outside the div */
@@ -1172,7 +1171,7 @@ footer {
     margin-top: 300px;
     width: 210%;
   }
-  
+
   #connect {
     border: 1px solid transparent;
     display: flex;
@@ -1181,7 +1180,7 @@ footer {
     margin-left: 1500px;
     margin-top: 30px;
   }
-  
+
   #connect a {
     margin: 10px;
     padding: 10px;
