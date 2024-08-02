@@ -823,6 +823,7 @@ footer {
   .pre {
     font-size: 15px;
   }
+
   .overlay-text1 {
     position: absolute;
     top: 1%;
@@ -935,10 +936,10 @@ footer {
     margin-left: 50px;
   }
 
-  .card {
+  /* .card {
     min-width: 45%;
     max-width: 45%;
-  }
+  } */
 
   .popup-content {
     max-width: 700px;
@@ -955,16 +956,10 @@ footer {
     margin-bottom: 0;
   }
 
-  .contact {
-    position: relative; /* Make the contact div the reference point for the absolutely positioned image */
-    border: 1px transparent;
-    padding: 100px;
-  }
-
   .top-left-image {
     position: absolute; /* Position the image absolutely within the contact div */
-    top: -80px; /* Adjust this value to position the image outside the div */
-    left: 330px; /* Align the image to the left of the contact div */
+    top: -170px; /* Adjust this value to position the image outside the div */
+    left: 100px; /* Align the image to the left of the contact div */
     width: 200px; /* Maintain the specified width */
     height: 300px; /* Maintain the specified height */
     margin-bottom: 500px;
@@ -1097,6 +1092,7 @@ footer {
   .pre {
     font-size: 15px;
   }
+
   .overlay-text1 {
     position: absolute;
     top: 1%;
@@ -1180,8 +1176,8 @@ footer {
 
   .top-left-image {
     position: absolute; /* Position the image absolutely within the contact div */
-    top: -80px; /* Adjust this value to position the image outside the div */
-    left: 330px; /* Align the image to the left of the contact div */
+    top: -90px; /* Adjust this value to position the image outside the div */
+    left: 300px; /* Align the image to the left of the contact div */
     width: 200px; /* Maintain the specified width */
     height: 300px; /* Maintain the specified height */
     margin-bottom: 500px;
