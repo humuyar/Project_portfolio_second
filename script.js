@@ -62,7 +62,7 @@ Glad To See You:)
 // about page content
 const aboutcontent = document.getElementById('about-content');
 aboutcontent.innerHTML = `
-<pre class="colorw">
+<pre class="colorw pre">
 My name is Humaira Qabooli.
 I'm a WEB Developer.
 I'm curently working with 
