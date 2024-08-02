@@ -130,8 +130,8 @@ function createCards() {
   const container = document.getElementById('slider-container');
   projects.forEach((project, index) => {
     const card1 = document.createElement('div');
-    card.className = 'card1';
-    card.innerHTML = `
+    card1.className = 'card1';
+    card1.innerHTML = `
       <img src="${project.image}" alt="${project.title}">
       <h3>${project.title}</h3>
       <p>${project.description}</p>

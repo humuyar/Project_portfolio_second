@@ -336,7 +336,7 @@ img {
   margin-left: -5px;
   border-width: 10px;
   border-style: solid;
-  border-color: #55555500 transparent transparent transparent;
+  border-color: #5550 transparent transparent transparent;
 }
 
 /* Toggle this class - hide and show the popup */
@@ -534,7 +534,6 @@ h3 {
   border-radius: 10px;
   background-color: #2f328a;
   overflow: hidden;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   color: #fff;
   border-top-left-radius: 100px;
 }
@@ -629,7 +628,6 @@ footer {
   width: 300.72px;
   background: linear-gradient(45deg, #2957a3, #c961de);
   background-color: rgba(2, 2, 38, 0.914);
-
   display: flex;
   justify-content: center;
 }
