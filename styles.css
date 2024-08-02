@@ -314,7 +314,7 @@ img {
 
 /* The actual popup */
 .popup .popuptext {
-  /* visibility: hidden; */
+  visibility: hidden;
   width: 100px;
   color: #121111;
   text-align: center;
