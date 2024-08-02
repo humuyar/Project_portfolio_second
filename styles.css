@@ -978,7 +978,7 @@ footer {
     margin-top: 300px;
     width: 250%;
   }
-  
+
   #connect {
     border: 1px solid transparent;
     display: flex;
@@ -987,7 +987,7 @@ footer {
     margin-left: 950px;
     margin-top: 30px;
   }
-  
+
   #connect a {
     margin: 10px;
     padding: 10px;
@@ -1002,9 +1002,7 @@ footer {
     background-color: #2f328a;
     height: 800px;
     overflow: hidden;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
     color: #fff;
-    /* border-top-left-radius: 100px; */
   }
   .contact-info,
   .contact-form {
@@ -1148,11 +1146,6 @@ footer {
     margin-left: 50px;
   }
 
-  .card {
-    min-width: 45%;
-    max-width: 45%;
-  }
-
   .popup-content {
     max-width: 700px;
   }
@@ -1168,16 +1161,10 @@ footer {
     margin-bottom: 0;
   }
 
-  .contact {
-    position: relative; /* Make the contact div the reference point for the absolutely positioned image */
-    border: 1px transparent;
-    padding: 100px;
-  }
-
   .top-left-image {
     position: absolute; /* Position the image absolutely within the contact div */
-    top: -90px; /* Adjust this value to position the image outside the div */
-    left: 300px; /* Align the image to the left of the contact div */
+    top: -160px; /* Adjust this value to position the image outside the div */
+    left: 280px; /* Align the image to the left of the contact div */
     width: 200px; /* Maintain the specified width */
     height: 300px; /* Maintain the specified height */
     margin-bottom: 500px;
