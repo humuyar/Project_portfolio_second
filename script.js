@@ -72,10 +72,9 @@ a proffesional web page that
 will people interest with it.
 </pre>
 `;
-/* global myFunction */ 
-// eslint-disable-next-line no-unused-vars 
-function myFunction() {  
-  // function implementation 
+// When the user clicks on div, open the popup
+function myFunction() {
   const popup = document.getElementById('myPopup');
-  popup.classList.toggle('show'); 
+  popup.classList.toggle('show');
 }
+popup.myFunction(getElementById(myPopup));
