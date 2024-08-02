@@ -76,5 +76,5 @@ will people interest with it.
 function myFunction() {
   const popup = document.getElementById('myPopup');
   popup.classList.toggle('show');
-  myFunction(getElementById(myPopup));
+  myFunction(onclick);
 }
