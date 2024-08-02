@@ -74,6 +74,6 @@ will people interest with it.
 `;
 // When the user clicks on div, open the popup
 function myFunction() {
-  const popup_1 = document.getElementById("myPopup");
-  popup_1.classList.toggle("show");
+  const popup = document.getElementById('myPopup');
+  popup.classList.toggle('show');
 }

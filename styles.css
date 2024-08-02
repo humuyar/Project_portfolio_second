@@ -426,8 +426,8 @@ img {
   }
 
   .cv {
-   padding: 10px;
-   margin-right: 900px;
+    padding: 10px;
+    margin-right: 900px;
   }
 
   .round-1 {
@@ -609,19 +609,19 @@ img {
 /* 1024px screen size */
 @media screen and (min-width: 1440px) {
   .home {
-    position: justify;
-     justify-content: center;
-     align-items: center; 
-     border-radius: 100px 30px 30px 30px;
-     margin-right: 1px;
-     margin-left: 90px; 
-     background: rgba(47, 47, 138, 1);
-     width: 1300px;
-     height: 500px;
-     margin-top: 20%;
-   }
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 100px 30px 30px 30px;
+    margin-right: 1px;
+    margin-left: 90px; 
+    background: rgba(47, 47, 138, 1);
+    width: 1300px;
+    height: 500px;
+    margin-top: 20%;
+  }
 
-   .navbar {
+  .navbar {
     color: white;
     display: flex;
     flex-flow: row;
