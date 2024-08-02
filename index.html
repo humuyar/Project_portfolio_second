@@ -44,7 +44,7 @@
           <div class="image-container">
             <img class="small-circle" src="assecc/vectors/small_circle_4_x2.svg"/>
             <div class="overlay-text">
-            <h2 class="padding1">About Myself</h2>
+            <h4 class="padding1">About Myself</h4>
               <div class="container3">
                 <div class="text">
                   <div id="about-content"></div>
@@ -151,13 +151,84 @@
         </section>
       </div>
     </div>
-   
+    <!-- project section -->
+    <section class="Projects" id="Projects">
+      <div class="background-container">
+        <div class="background-image image1"></div>
+        <div class="background-image image2"></div>
+        <div class="background-image image3"></div>
+        <div class="background-image image4"></div>
+      </div>
+      <div class="slider">
+        <button type="button" class="slider-btn prev-btn">&lt;</button>
+        <div class="slider-container" id="slider-container">
+          <!-- Cards will be dynamically inserted here -->
+        </div>
+        <button type="button" class="slider-btn next-btn">&gt;</button>
+      </div>
+      <!-- Popup Modal -->
+      <div class="popup" id="popup">
+        <div class="popup-content">
+          <span class="close-btn" id="close-btn">&times;</span>
+          <div id="popup-content-inner"></div>
+        </div>
+      </div> 
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <img src="assecc/d8e69b04-4686-42d2-8f4e-fa5f47af4cdb.webp" alt="Working Image" class="top-left-image" />
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-content">
+              <h2>Connect With Me</h2>
+              <p>I’m very approachable and would love to speak to you. Feel free to call, send me an email. Follow me in social media or simply complete the enquiry form.</p>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i> <a href="https://wa.me/+93 792156945" target="_blank" rel="noopener noreferrer">+93 792156945</a>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i> <a href="mailto:humiq6071@gmail.com">humiq6071@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h2>Send me a message</h2>
+            <form id="contactForm" action="https://formspree.io/f/{form_id}" method="post">
+              <input type="text" id="name" name="name" maxlength="30" placeholder="Name" required>
+              <input type="email" id="email" name="email" placeholder="Email Address" required>
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+              <textarea id="message" name="message" maxlength="500" placeholder="Your message" required></textarea>
+              <button type="submit">Send message</button>
+              <p class="error-message" id="errorMessage"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer>
+      <h3>Made with ❤ by Humaira Qabooli :)</h3>
+      <div id="me">
+        <a href="#home"><i class="fa-solid fa-house colorb"></i>Home</a>
+        <a href="#about">About</a>
+        <a href="#Projects"><i class="fa-solid fa-briefcase"></i>Projects</a>
+        <a href="#contact"><i class="fa-solid fa-user"></i>Contact</a>
+      </div>
+      <h2>Let's connect</h2>
+      <div id="connect">
+        <a href="mailto:humiq6071@gmail.com"><i class="fa-brands fa-google"></i></a>
+        <a href="https://github.com/humuyar"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/Humaira (Hmui) Qabooli.com"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </footer>
   </body>
   <script> 
     // When the user clicks on div, open the popup
     function myFunction() {
-    const popup = document.getElementById('myPopup');
-    popup.classList.toggle('show');
+    const popup1 = document.getElementById('myPopup');
+    popup1.classList.toggle('show');
     }
   </script>
   <script src="script.js">
