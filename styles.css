@@ -346,7 +346,7 @@ img {
   animation: fadein 1s;
 }
 
-/* screen size 786px */
+/* screen size 768px */
 @media only screen and (min-width: 768px) {
   .p {
     display: none;
@@ -607,7 +607,7 @@ img {
   }
 }
 
-/* 1024px screen size */
+/* 1440px screen size */
 @media screen and (min-width: 1440px) {
   .home {
     position: relative;
