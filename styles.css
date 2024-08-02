@@ -636,14 +636,14 @@ img {
     border-radius: 100px 30px 30px 30px;
     display: flex;
     flex-direction: row-reverse;
-    width: 70%;
+    width: 100%;
     margin-left: 80px;
     margin-top: 50px;
-    height: 400px;
+    height: 600px;
   }
 
   .overlay-text {
-    margin-top: 50px;
+    margin-top: 100px;
     position: absolute;
     top: 40%;
     left: 35%;
@@ -652,16 +652,29 @@ img {
     color: #fff;
     text-align: justify;
     height: 70%;
-    width: 70%;
+    width: 50%;
     border-radius: 50%;
     display: inline-block;
   }
 
   .image-container2 {
-    margin-top: 70px;
+    margin-top: 130px;
     position: relative;
     display: inline-block;
-    width: 80%;
+    width: 60%;
     height: auto;
+  }
+
+  .padding1 {
+    margin-top: 80px;
+    margin-right: 120px;
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+
+  .small-circle {
+    width: 70%;
+    padding: 1px;
+    margin-top: 300px;
   }
 }
