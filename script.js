@@ -49,7 +49,7 @@ closebutton3.addEventListener('click', () => {
 // home page  content
 const homecontent = document.getElementById('home-content');
 homecontent.innerHTML = `
-<p class="colorw txt1">
+<p class="colorw txt1 txt">
 Salaam Alikum!
 </p>
 <p class="colorw txt1">
@@ -72,15 +72,8 @@ a proffesional web page that
 will people interest with it.
 </pre>
 `;
-// certificate popup
-// const certificatepopup = document.getElementsById("certificate-popup");
-// const popupcontent = document.getElementById("popup-content");
-// const popupclose = document.getElementById("close-popup");
-
-// function showPopup (index) {
-//     const project = project(index);
-//     popupcontent.innerHTML=`
-//     <h3>Certificate</h3>
-//     `
-//     certificatepopup.classList.remove("hidden");
-// };
+// When the user clicks on div, open the popup
+function myFunction() {
+  const popup_1 = document.getElementById("myPopup");
+  popup_1.classList.toggle("show");
+}

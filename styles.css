@@ -7,18 +7,22 @@
 
 .hire {
   color: white;
-  border-radius: 40%;
   background: rgba(255, 255, 255, 0.3);
   border: none;
-  margin-left: 80px;
+  margin-left: 50px;
 }
 
 .cv {
   color: white;
   background: linear-gradient(281.25deg, #2957a3 31.79%, #c961de 98.74%);
-  border-radius: 40%;
   border: none;
-  margin-left: 10px;
+  margin-left: 5px;
+}
+
+.round-1 {
+  border-radius: 14.54px 14.54px 14.54px 14.54px;
+  padding: 6px;
+  width: 40%;
 }
 
 .size {
@@ -30,7 +34,7 @@
 
 .mr-certificate {
   margin-left: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
   width: 100px;
   border: none;
   padding: 2px;
@@ -53,7 +57,7 @@
 
 .home {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 20%;
   margin-right: 100px;
 }
 
@@ -275,32 +279,105 @@ img {
   font-size: 10px;
 }
 
-#certificate-popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #301846;
-  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
-  padding: 20px;
-}
-
 #hide {
   display: none;
 }
 
-@media only screen and (min-width: 786px) {
-  .body {
-    background-color: rgba(2, 2, 38, 0.914);
+.card {
+  background: linear-gradient(180deg, #763CAC 0%, #301846 100%);
+  display: inline-block;
+  width: 25rem;
+  height: 20rem;
+  border-radius: 10%;
+}
+
+.card0 {
+ width: 80%;
+ margin-left: 40px;
+}
+
+.card2 {
+  width: 80%;
+  margin-left: 40px;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 100px;
+  color: #121111;
+  text-align: center;
+  border-radius: 15px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 5%;
+  left: 33%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* screen size 786px */
+@media only screen and (min-width: 768px) {
+  .p {
+    display: hide;
   }
 
   .hide-ellipse-navbar {
     display: none;
   }
-}
+ 
+  .home {
+   position: justify;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 100px 30px 30px 30px;
+    margin-right: 1px;
+    margin-left: 90px; 
+    background: rgba(47, 47, 138, 1);
+    width: 1300px;
+    height: 400px;
+    margin-top: 40%;
+  }
 
-/* 786px screen size */
-@media only screen and (min-width: 786px) {
+  .txt {
+    margin-top: 7%;
+    margin-left: 10%;
+  }
+
+  .txt1 {
+    margin-left: 10%;
+  }
+
   .size {
     display: none;
   }
@@ -314,150 +391,278 @@ img {
   }
 
   .nav1 {
-    display: table-row;
+    display: flex;
   }
 
   .navbar {
     color: white;
     display: flex;
     flex-flow: row;
-    width: 1px;
-    border-radius: 0%;
-    padding: 1px;
-    margin: 1px;
-    list-style-type: none;
     height: 50px;
     background: none;
-    text-decoration: none;
     position: fixed;
-    margin-left: 200px;
+    margin-left: 300px;
   }
-}
 
-@media screen and (min-width: 786px) {
+  a {
+    padding: 15px;
+  }
+
   .ellipse4 {
     position: fixed;
     left: 1px;
-    width: 25%;
+    width: 10%;
   }
 
   .ellipse3 {
     position: fixed;
-    width: 25%;
+    width: 10%;
     margin-top: 20px;
-    margin-left: 60px;
-  }
-}
-
-@media screen and (min-width: 786px) {
-  #home {
-    background: rgba(47, 47, 138, 1);
-    line-height: 50px;
-    border-radius: 100px 30px 30px 30px;
-    margin-left: 90px;
-    margin-right: 65px;
+    margin-left: 50px;
   }
 
   .hire {
-    margin-bottom: 150px;
+    padding: 10px;
   }
 
   .cv {
-    margin-bottom: 100px;
+   padding: 10px;
+   margin-right: 900px;
   }
-}
 
-@media screen and (min-width: 786px) {
+  .round-1 {
+    border-radius: 14.54px 14.54px 14.54px 14.54px;
+    padding: 6px;
+    width: 10%;
+  }
+
   .row {
     background: rgba(47, 47, 138, 1);
     border-radius: 100px 30px 30px 30px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
     margin-left: 80px;
+    margin-top: 50px;
+    height: 400px;
+  }
+   
+  #abbout {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle {
+    display: none;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    height: auto;
+  }
+  
+  .overlay-text {
+    margin-top: 50px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(132.61deg, rgba(201, 97, 222, 0.8) 16.04%, rgba(41, 87, 163, 0.8) 84.51%);
+    color: #fff;
+    text-align: justify;
+    height: 70%;
+    width: 75%;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .padding1 {
+    margin-top: 30px;
+    margin-right: 120px;
+    font-family: sans-serif;
+    font-size: 10px;
+  }
+
+  .overlay-text1 {
+    position: absolute;
+    top: 1%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    height: 50%;
+    width: 200%;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .image-container2 {
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: auto;
+  }
+
+  .sizenav1 {
+    height: 10px;
+    margin-left: 30%;
   }
 
   #hide {
     display: inline;
     margin-top: 1px;
+  }
+
+  .small-circle {
+    width: 70%;
+    padding: 1px;
+    margin-top: 200px;
+  }
+
+  .x1 {
+    display: block;
+    color: white;
+    border: none;
+    background: linear-gradient(180deg, #763cac 0%, #301846 100%);
+  }
+  
+  .navbar1 {
+    color: white;
+    display: block;
+    width: 220px;
+    border-radius: 25% 80% 10% 10%;
+    padding: 40px;
+    margin: 10px;
+    list-style-type: none;
+    height: 250px;
+    background: linear-gradient(180deg, #763cac 0%, #301846 100%);
+  }
+
+  .about1 {
+    background: linear-gradient(180deg, rgba(48, 16, 128, 0.6) 0%, rgba(120, 64, 173, 0.36) 100%);
+    border-radius: 50%;
+    border: none;
+    padding: 3%;
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .about2 {
+    background: linear-gradient(180deg, rgba(48, 16, 128, 0.6) 0%, rgba(120, 64, 173, 0.36) 100%);
+    border-radius: 50%;
+    border: none;
+    padding: 3%;
+    color: white;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-top: 1px;
+  }
+  
+  .about3 {
+    background: linear-gradient(180deg, rgba(48, 16, 128, 0.6) 0%, rgba(120, 64, 173, 0.36) 100%);
+    border-radius: 50%;
+    border: none;
+    padding: 3%;
+    color: white;
+    margin-left: 150px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .card {
+    background: linear-gradient(180deg, #763CAC 0%, #301846 100%);
+    display: inline-block;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 10%;
+    margin-right: 60%;
+  }
+  
+  .card0 {
+   width: 80%;
+   height: 30%;
+   margin-left: 10px;
+  }
+  
+  .card2 {
+    width: 80%;
+    margin-left: 50px;
   }
 }
 
 /* 1024px screen size */
-@media screen and (min-width: 1024px) {
-  .size {
-    display: none;
-  }
+@media screen and (min-width: 1440px) {
+  .home {
+    position: justify;
+     justify-content: center;
+     align-items: center; 
+     border-radius: 100px 30px 30px 30px;
+     margin-right: 1px;
+     margin-left: 90px; 
+     background: rgba(47, 47, 138, 1);
+     width: 1300px;
+     height: 500px;
+     margin-top: 20%;
+   }
 
-  .sizenav {
-    display: none;
-  }
-
-  .x {
-    display: none;
-  }
-
-  .nav1 {
-    display: table-row;
-  }
-
-  .navbar {
+   .navbar {
     color: white;
     display: flex;
     flex-flow: row;
-    width: 30%;
-    border-radius: 1%;
-    padding: 1px;
-    margin: 1px;
-    list-style-type: none;
     height: 50px;
     background: none;
-    text-decoration: none;
     position: fixed;
-    margin-left: 900px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  #home {
-    margin-top: 50px;
-    background: rgba(47, 47, 138, 1);
-    border-radius: 100px 30px 30px 30px;
-    margin-left: 150px;
+    margin-left: 500px;
   }
 
-  .hire {
-    margin-bottom: 150px;
-  }
-
-  .cv {
-    margin-bottom: 100px;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
   .row {
     background: rgba(47, 47, 138, 1);
     border-radius: 100px 30px 30px 30px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
     margin-left: 80px;
+    margin-top: 50px;
+    height: 400px;
   }
 
-  #hide {
-    display: inline;
-    margin-top: 1px;
+  .overlay-text {
+    margin-top: 50px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(132.61deg, rgba(201, 97, 222, 0.8) 16.04%, rgba(41, 87, 163, 0.8) 84.51%);
+    color: #fff;
+    text-align: justify;
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .image-container2 {
+    margin-top: 70px;
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: auto;
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .ellipse4 {
-    position: fixed;
-    left: 1px;
-    width: 15%;
-  }
-
-  .ellipse3 {
-    position: fixed;
-    width: 15%;
-    margin-top: 20px;
-    margin-left: 60px;
-  }
-}
