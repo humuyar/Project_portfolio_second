@@ -284,7 +284,7 @@ img {
 }
 
 .card {
-  background: linear-gradient(180deg, #763CAC 0%, #301846 100%);
+  background: linear-gradient(180deg, #763cac 0%, #301846 100%);
   display: inline-block;
   width: 25rem;
   height: 20rem;
@@ -292,8 +292,8 @@ img {
 }
 
 .card0 {
- width: 80%;
- margin-left: 40px;
+  width: 80%;
+  margin-left: 40px;
 }
 
 .card2 {
@@ -342,27 +342,27 @@ img {
 /* Toggle this class - hide and show the popup */
 .popup .show {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  -webkit-animation: fadein 1s;
+  animation: fadein 1s;
 }
 
 /* screen size 786px */
 @media only screen and (min-width: 768px) {
   .p {
-    display: hide;
+    display: none;
   }
 
   .hide-ellipse-navbar {
     display: none;
   }
- 
+
   .home {
-   position: justify;
+    position: relative;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     border-radius: 100px 30px 30px 30px;
     margin-right: 1px;
-    margin-left: 90px; 
+    margin-left: 90px;
     background: rgba(47, 47, 138, 1);
     width: 1300px;
     height: 400px;
@@ -446,7 +446,7 @@ img {
     margin-top: 50px;
     height: 400px;
   }
-   
+ 
   #abbout {
     position: absolute;
     justify-content: center;
@@ -456,12 +456,12 @@ img {
   .circle {
     display: none;
   }
-  
+
   img {
     max-width: 100%;
     max-height: 100%;
   }
-  
+
   .image-container {
     position: relative;
     display: inline-block;
@@ -471,7 +471,7 @@ img {
     display: block;
     height: auto;
   }
-  
+
   .overlay-text {
     margin-top: 50px;
     position: absolute;
@@ -538,7 +538,7 @@ img {
     border: none;
     background: linear-gradient(180deg, #763cac 0%, #301846 100%);
   }
-  
+
   .navbar1 {
     color: white;
     display: block;
@@ -665,4 +665,3 @@ img {
     height: auto;
   }
 }
-
