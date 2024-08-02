@@ -950,12 +950,6 @@ footer {
     justify-content: space-between;
   }
 
-  .contact-info,
-  .contact-form {
-    width: 48%;
-    margin-bottom: 0;
-  }
-
   .top-left-image {
     position: absolute; /* Position the image absolutely within the contact div */
     top: -170px; /* Adjust this value to position the image outside the div */
@@ -1004,6 +998,7 @@ footer {
     overflow: hidden;
     color: #fff;
   }
+
   .contact-info,
   .contact-form {
     width: 100%;
@@ -1154,13 +1149,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
   }
-
-  .contact-info,
-  .contact-form {
-    width: 48%;
-    margin-bottom: 0;
-  }
-
+  
   .top-left-image {
     position: absolute; /* Position the image absolutely within the contact div */
     top: -160px; /* Adjust this value to position the image outside the div */
@@ -1207,10 +1196,9 @@ footer {
     background-color: #2f328a;
     height: 800px;
     overflow: hidden;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
     color: #fff;
-    /* border-top-left-radius: 100px; */
   }
+
   .contact-info,
   .contact-form {
     width: 100%;
