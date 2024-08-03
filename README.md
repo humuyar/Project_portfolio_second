@@ -96,7 +96,7 @@ professionaSskill.addEventListener('click', () => {
 ```
 
 ## Demo 📸
-life demo link [.]
+life demo link [[.](https://humuyar.github.io/Project_portfolio_second/)]
 
 ## Technologies Used 🛠️
 - HTML
