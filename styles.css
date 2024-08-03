@@ -588,7 +588,7 @@ h3 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 10px;
   display: flex;
   margin-left: 30px;
   align-items: center;
@@ -663,21 +663,15 @@ footer {
     display: none;
   }
 
-  p {
-    font-size: 30px;
-    text-align: justify;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 40px;
-  }
-
   h2 {
-    font-size: 50px;
+    font-size: 20px;
     display: flex;
-    margin-right: 200px;
     align-items: center;
     justify-content: center;
     color: white;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
   }
 
   .hide-ellipse-navbar {
@@ -691,8 +685,8 @@ footer {
     border-radius: 100px 30px 30px 30px;
     margin-left: 90px;
     background: rgba(47, 47, 138, 1);
-    width: 1800px;
-    height: 800px;
+    width: 100%;
+    height: 500px;
     margin-top: 40%;
   }
 
@@ -728,7 +722,7 @@ footer {
     height: 50px;
     background: none;
     position: fixed;
-    margin-left: 1200px;
+    margin-left: 12%;
   }
 
   a {
@@ -738,12 +732,12 @@ footer {
   .ellipse4 {
     position: fixed;
     left: 1px;
-    width: 10%;
+    width: 8%;
   }
 
   .ellipse3 {
     position: fixed;
-    width: 10%;
+    width: 8%;
     margin-top: 20px;
     margin-left: 50px;
   }
@@ -754,13 +748,13 @@ footer {
 
   .cv {
     padding: 10px;
-    margin-right: 1000px;
+    margin-right: 25%;
   }
 
   .round-1 {
-    border-radius: 14.54px 14.54px 14.54px 14.54px;
+    border-radius: 5px 5px 5px 5px;
     padding: 6px;
-    width: 10%;
+    width: 20%;
   }
 
   .row {
@@ -768,10 +762,10 @@ footer {
     border-radius: 100px 30px 30px 30px;
     display: flex;
     flex-direction: row-reverse;
-    width: 250%;
+    width: 100%;
     margin-left: 80px;
     margin-top: 50px;
-    height: 800px;
+    height: 500px;
   }
 
   #abbout {
@@ -802,28 +796,32 @@ footer {
   .overlay-text {
     position: absolute;
     top: 40%;
-    left: 25%;
+    left: 40%;
     transform: translate(-50%, -50%);
     background: linear-gradient(132.61deg, rgba(201, 97, 222, 0.8) 16.04%, rgba(41, 87, 163, 0.8) 84.51%);
     color: #fff;
     text-align: justify;
-    height: 80%;
-    width: 50%;
+    height: 60%;
+    width: 80%;
     border-radius: 50%;
     display: inline-block;
   }
 
   .padding1 {
-    margin-top: 120px;
-    margin-right: 120px;
+    margin-top: 40px;
+    margin-right: 150px;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 10px;
   }
 
-  .pre {
-    font-size: 15px;
+  .mr-certificate {
+    margin-left: 90px;
+    margin-bottom: 90px;
+    width: 100px;
+    border: none;
+    padding: 2px;
   }
-
+  
   .overlay-text1 {
     position: absolute;
     top: 1%;
@@ -842,9 +840,9 @@ footer {
     margin-top: 150px;
     position: relative;
     display: inline-block;
-    width: 60%;
+    width: 70%;
     height: auto;
-    margin-left: 10px;
+    margin-left: 50px;
   }
 
   .sizenav1 {
@@ -858,9 +856,9 @@ footer {
   }
 
   .small-circle {
-    width: 50%;
-    padding: 1px;
-    margin-top: 400px;
+    width: 70%;
+    padding: 5px;
+    margin-top: 300px;
   }
 
   .x1 {
@@ -891,7 +889,7 @@ footer {
     margin-left: 10px;
     font-size: 15px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .about2 {
@@ -902,7 +900,6 @@ footer {
     color: white;
     margin-left: 100px;
     font-size: 15px;
-    margin-top: 1px;
   }
 
   .about3 {
@@ -913,14 +910,13 @@ footer {
     color: white;
     margin-left: 150px;
     font-size: 15px;
-    margin-top: 10px;
   }
 
   .card {
     background: linear-gradient(180deg, #763cac 0%, #301846 100%);
     display: inline-block;
-    width: 25rem;
-    height: 25rem;
+    width: 19rem;
+    height: 20rem;
     border-radius: 10%;
     margin-right: 60%;
   }
@@ -928,18 +924,13 @@ footer {
   .card0 {
     width: 80%;
     height: 30%;
-    margin-left: 10px;
+    margin-left: 30px;
   }
 
   .card2 {
     width: 80%;
-    margin-left: 50px;
+    margin-left: 30px;
   }
-
-  /* .card {
-    min-width: 45%;
-    max-width: 45%;
-  } */
 
   .popup-content {
     max-width: 700px;
@@ -952,25 +943,32 @@ footer {
 
   .top-left-image {
     position: absolute; /* Position the image absolutely within the contact div */
-    top: -170px; /* Adjust this value to position the image outside the div */
-    left: 100px; /* Align the image to the left of the contact div */
+    top: -110px; /* Adjust this value to position the image outside the div */
+    left: 1px; /* Align the image to the left of the contact div */
     width: 200px; /* Maintain the specified width */
-    height: 300px; /* Maintain the specified height */
+    height: 200px; /* Maintain the specified height */
     margin-bottom: 500px;
   }
 
   #me {
-    width: 900.72px;
-    margin-right: 700px;
-    margin-left: 500px;
-    border-radius: 10px;
+    width: 600px;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+
+  #me a {
+    margin-left: 1%;
+    padding: 1px;
+    color: white;
   }
 
   .contact {
     position: relative; /* Make the contact div the reference point for the absolutely positioned image */
     border: 1px transparent;
     margin-top: 300px;
-    width: 250%;
+    width: 100%;
   }
 
   #connect {
@@ -978,8 +976,8 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-left: 950px;
-    margin-top: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
   }
 
   #connect a {
@@ -990,25 +988,13 @@ footer {
   }
 
   .container {
-    width: 200%;
+    width: 80%;
     max-width: 1500px;
     border-radius: 10px;
-    background-color: #2f328a;
-    height: 800px;
+    height: 500px;
     overflow: hidden;
     color: #fff;
-  }
-
-  .contact-info,
-  .contact-form {
-    width: 100%;
-    margin-top: 100px;
-  }
-
-  h3 {
-    font-size: 10px;
-    color: white;
-    margin-left: 600px;
+    margin-left: 80px;
   }
 }
 
@@ -1019,9 +1005,9 @@ footer {
     margin-right: 1px;
     margin-left: 150px;
     background: rgba(47, 47, 138, 1);
-    width: 200%;
-    height: 800px;
-    margin-top: 30%;
+    width: 100%;
+    height: 500px;
+    margin-top: 20%;
   }
 
   .navbar {
@@ -1034,15 +1020,28 @@ footer {
     margin-left: 60%;
   }
 
+  .ellipse4 {
+    position: fixed;
+    left: 1px;
+    width: 15%;
+  }
+
+  .ellipse3 {
+    position: fixed;
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+
   .row {
     background: rgba(47, 47, 138, 1);
     border-radius: 100px 30px 30px 30px;
     display: flex;
     flex-direction: row-reverse;
-    width: 200%;
+    width: 100%;
     margin-left: 150px;
     margin-top: 50px;
-    height: 1000px;
+    height: 600px;
   }
 
   .hire {
@@ -1051,7 +1050,7 @@ footer {
 
   .cv {
     padding: 10px;
-    margin-right: 1700px;
+    margin-right: 900px;
   }
 
   .round-1 {
@@ -1061,7 +1060,7 @@ footer {
   }
 
   .overlay-text {
-    margin-top: 10%;
+    margin-top: 20%;
     position: absolute;
     top: 40%;
     left: 25%;
@@ -1069,21 +1068,25 @@ footer {
     background: linear-gradient(132.61deg, rgba(201, 97, 222, 0.8) 16.04%, rgba(41, 87, 163, 0.8) 84.51%);
     color: #fff;
     text-align: justify;
-    height: 70%;
+    height: 60%;
     width: 50%;
     border-radius: 50%;
     display: inline-block;
   }
 
   .padding1 {
-    margin-top: 130px;
+    margin-top: 50px;
     margin-right: 100px;
     font-family: sans-serif;
     font-size: 20px;
   }
 
-  .pre {
-    font-size: 15px;
+  .mr-certificate {
+    margin-left: 90px;
+    margin-bottom: 90px;
+    width: 100px;
+    border: none;
+    padding: 2px;
   }
 
   .overlay-text1 {
@@ -1117,16 +1120,16 @@ footer {
   .small-circle {
     width: 50%;
     padding: 1px;
-    margin-top: 600px;
+    margin-top: 400px;
   }
 
   .card {
     background: linear-gradient(180deg, #763cac 0%, #301846 100%);
     display: inline-block;
-    width: 25rem;
-    height: 25rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 10%;
-    margin-right: 60%;
+    margin-right: 100%;
   }
 
   .card0 {
@@ -1159,17 +1162,24 @@ footer {
   }
 
   #me {
-    width: 900.72px;
-    margin-right: 700px;
-    margin-left: 1100px;
-    border-radius: 10px;
+    width: 600px;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 10px;
+    margin-left: 500px;
+    margin-top: 20px;
+  }
+
+  #me a {
+    margin-left: 10%;
+    padding: 1px;
+    color: white;
   }
 
   .contact {
     position: relative; /* Make the contact div the reference point for the absolutely positioned image */
     border: 1px transparent;
     margin-top: 300px;
-    width: 210%;
+    width: 100%;
   }
 
   #connect {
@@ -1177,7 +1187,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-left: 1500px;
+    margin-left: 100px;
     margin-top: 30px;
   }
 
@@ -1189,24 +1199,14 @@ footer {
   }
 
   .container {
-    width: 200%;
+    width: 80%;
     max-width: 2300px;
     border-radius: 10px;
     background-color: #2f328a;
-    height: 800px;
+    height: 500px;
     overflow: hidden;
     color: #fff;
-  }
-
-  .contact-info,
-  .contact-form {
-    width: 100%;
-    margin-top: 100px;
-  }
-
-  h3 {
-    font-size: 10px;
-    color: white;
-    margin-left: 600px;
+    margin-right: 500px;
+    margin-left: 150px;
   }
 }
