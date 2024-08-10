@@ -188,71 +188,71 @@ document.getElementById('close-btn').addEventListener('click', () => {
 });
 
 // Initialize cards
- // Initialize cards and slider
- createCards();
- showSlide(currentIndex);
+// Initialize cards and slider
+createCards();
+showSlide(currentIndex);
 
- // Certificate Popup functionality
- const toggleCertificatePopup = () => {
-   const popup = document.getElementById('myPopup');
-   popup.classList.toggle('show');
- };
+// Certificate Popup functionality
+const toggleCertificatePopup = () => {
+  const popup = document.getElementById('myPopup');
+  popup.classList.toggle('show');
+};
 
- const certificateButton = document.getElementById('open-certificate-popup');
- const closeCertificateButton = document.getElementById('close-certificate-popup');
+const certificateButton = document.getElementById('open-certificate-popup');
+const closeCertificateButton = document.getElementById('close-certificate-popup');
 
- certificateButton.addEventListener('click', toggleCertificatePopup);
- certificateButton.addEventListener('touchstart', toggleCertificatePopup);
- closeCertificateButton.addEventListener('click', toggleCertificatePopup);
- closeCertificateButton.addEventListener('touchstart', toggleCertificatePopup);
+certificateButton.addEventListener('click', toggleCertificatePopup);
+certificateButton.addEventListener('touchstart', toggleCertificatePopup);
+closeCertificateButton.addEventListener('click', toggleCertificatePopup);
+closeCertificateButton.addEventListener('touchstart', toggleCertificatePopup);
 
- // Form handling
- const form = document.getElementById('contactForm');
- const nameField = document.getElementById('name');
- const emailField = document.getElementById('email');
- const subjectField = document.getElementById('subject');
- const messageField = document.getElementById('message');
- const errorMessage = document.getElementById('errorMessage');
+// Form handling
+const form = document.getElementById('contactForm');
+const nameField = document.getElementById('name');
+const emailField = document.getElementById('email');
+const subjectField = document.getElementById('subject');
+const messageField = document.getElementById('message');
+const errorMessage = document.getElementById('errorMessage');
 
- // Load data from localStorage
- const formData = JSON.parse(localStorage.getItem('formData')) || {};
- if (formData.name) nameField.value = formData.name;
- if (formData.email) emailField.value = formData.email;
- if (formData.subject) subjectField.value = formData.subject;
- if (formData.message) messageField.value = formData.message;
+// Load data from localStorage
+const formData = JSON.parse(localStorage.getItem('formData')) || {};
+if (formData.name) nameField.value = formData.name;
+if (formData.email) emailField.value = formData.email;
+if (formData.subject) subjectField.value = formData.subject;
+if (formData.message) messageField.value = formData.message;
 
- // Save data to localStorage on input change
- [nameField, emailField, subjectField, messageField].forEach((field) => {
-   field.addEventListener('input', () => {
-     formData[field.id] = field.value;
-     localStorage.setItem('formData', JSON.stringify(formData));
-   });
+// Save data to localStorage on input change
+[nameField, emailField, subjectField, messageField].forEach((field) => {
+  field.addEventListener('input', () => {
+  formData[field.id] = field.value;
+  localStorage.setItem('formData', JSON.stringify(formData)); 
  });
+});
 
- form.addEventListener('submit', (event) => {
-   event.preventDefault();
-   errorMessage.style.display = 'none';
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  errorMessage.style.display = 'none';
 
-   const name = nameField.value.trim();
-   const email = emailField.value.trim().toLowerCase();
-   const subject = subjectField.value.trim();
-   const message = messageField.value.trim();
+  const name = nameField.value.trim();
+  const email = emailField.value.trim().toLowerCase();
+  const subject = subjectField.value.trim();
+  const message = messageField.value.trim();
 
-   if (!name || !email || !subject || !message) {
-     errorMessage.textContent = 'All fields are required.';
-     errorMessage.style.display = 'block';
-     return;
-   }
+  if (!name || !email || !subject || !message) {
+    errorMessage.textContent = 'All fields are required.';
+    errorMessage.style.display = 'block';
+    return;
+  }
 
-   // Validate email
-   const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
-   if (!emailPattern.test(email)) {
-     errorMessage.textContent = 'Please enter a valid email address.';
-     errorMessage.style.display = 'block';
-     return;
-   }
+  // Validate email
+  const emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+  if (!emailPattern.test(email)) {
+    errorMessage.textContent = 'Please enter a valid email address.';
+    errorMessage.style.display = 'block';
+    return;
+  }
 
-   // If validation is OK, submit the form
-   form.submit();
- });
+  // If validation is OK, submit the form
+  form.submit();
+});
 
