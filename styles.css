@@ -353,14 +353,33 @@ img {
   font-size: 18px;
 }
 
+.certificate-card a:hover {
+  text-decoration: underline;
+}
+
+.card .links a {
+  display: block;
+  margin: 5px 0;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.popup-content a:hover {
+  text-decoration: underline;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.card .links a:hover {
+  text-decoration: underline;
+}
+
 #me a {
   margin: 10px;
   padding: 5px;
   color: white;
-}
-
-.certificate-card a:hover {
-  text-decoration: underline;
 }
 
 /* Close button styles */
@@ -444,25 +463,6 @@ h2 {
 
 .card .links {
   margin: 10px 0;
-}
-
-.card .links a {
-  display: block;
-  margin: 5px 0;
-  color: #007bff;
-  text-decoration: none;
-}
-
-.popup-content a:hover {
-  text-decoration: underline;
-}
-
-.contact-item a:hover {
-  text-decoration: underline;
-}
-
-.card .links a:hover {
-  text-decoration: underline;
 }
 
 .card button {
@@ -1102,19 +1102,6 @@ footer {
   #me a {
     padding: 10px;
     color: white;
-  }
-  
-  .ellipse4 {
-    position: fixed;
-    left: 1px;
-    width: 15%;
-  }
-
-  .ellipse3 {
-    position: fixed;
-    width: 15%;
-    margin-top: 20px;
-    margin-left: 80px;
   }
 
   .home {
