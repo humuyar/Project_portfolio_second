@@ -679,7 +679,6 @@ footer {
   height: 50px;
 }
 
-
 /* screen size 768px */
 @media only screen and (min-width: 768px) {
   .card .links {
@@ -1065,7 +1064,7 @@ footer {
     margin-left: 50px;
     background: linear-gradient(45deg, #2957a3, #c961de);
   }
-  
+
   footer {
     margin-bottom: 50px;
     margin-left: 50px;
