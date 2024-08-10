@@ -224,9 +224,9 @@ if (formData.message) messageField.value = formData.message;
 // Save data to localStorage on input change
 [nameField, emailField, subjectField, messageField].forEach((field) => {
   field.addEventListener('input', () => {
-  formData[field.id] = field.value;
-  localStorage.setItem('formData', JSON.stringify(formData)); 
- });
+   formData[field.id] = field.value;
+   localStorage.setItem('formData', JSON.stringify(formData)); 
+  });
 });
 
 form.addEventListener('submit', (event) => {
@@ -255,4 +255,3 @@ form.addEventListener('submit', (event) => {
   // If validation is OK, submit the form
   form.submit();
 });
-
