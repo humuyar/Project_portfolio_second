@@ -319,15 +319,15 @@ img {
   visibility: hidden;
   width: auto;
   max-width: 600px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: #301846;
   position: absolute;
   z-index: 1;
-  left: 50%;
+  left: 93%;
+  bottom: 35%;
   transform: translateX(-50%);
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(39, 9, 113, 0.567);
 }
 
 .popup .popuptext.show {
@@ -340,15 +340,15 @@ img {
   background-color: #301846;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 250px;
+  width: 363px;
+  height: 200px;
 }
 
 .certificate-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .certificate-card img {
@@ -359,14 +359,14 @@ img {
 
 .certificate-card a {
   margin-top: 10px;
-  color: #007bff;
+  color: #c3d0df;
   text-decoration: none;
 }
 
 .popup-content a {
   display: block;
   margin: 10px 0;
-  color: #007bff;
+  color: #c1c9d2;
   text-decoration: none;
 }
 
@@ -383,7 +383,7 @@ img {
 .card .links a {
   display: block;
   margin: 5px 0;
-  color: #007bff;
+  color: #c9d6e4;
   text-decoration: none;
 }
 
@@ -1038,7 +1038,22 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 500px;
+    width: 300px;
+  }
+
+  .popup .popuptext {
+    visibility: hidden;
+    width: auto;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #301846;
+    position: absolute;
+    z-index: 1;
+    left: 80%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    box-shadow: 0 5px 15px rgba(39, 9, 113, 0.567);
   }
 
   .certificate-card img {
@@ -1352,5 +1367,35 @@ footer {
 
   .card2 {
     width: 200px;
+  }
+
+  .certificate-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+  }
+
+  .popup .popuptext {
+    visibility: hidden;
+    width: auto;
+    max-width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #301846;
+    position: absolute;
+    z-index: 1;
+    left: 10%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    box-shadow: 0 5px 15px rgba(39, 9, 113, 0.567);
+  }
+
+  .certificate-card img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
   }
 }
