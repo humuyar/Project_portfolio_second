@@ -881,7 +881,7 @@ footer {
     width: 100%;
     margin-left: 80px;
     margin-top: 50px;
-    height: 600px;
+    height: 500px;
   }
 
   #abbout {
@@ -915,23 +915,24 @@ footer {
 
   .overlay-text {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 40%;
     transform: translate(-50%, -50%);
     background: linear-gradient(132.61deg, rgba(201, 97, 222, 0.8) 16.04%, rgba(41, 87, 163, 0.8) 84.51%);
     color: #fff;
     text-align: justify;
-    height: 50%;
+    height: 60%;
     width: 80%;
     border-radius: 50%;
     display: inline-block;
   }
 
   .padding1 {
-    margin-top: 40px;
-    margin-right: 150px;
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 10.05px;
+    font-weight: 700;
+    line-height: 15.08px;
+    text-align: left;
   }
 
   .overlay-text1 {
@@ -952,7 +953,7 @@ footer {
     margin-top: 150px;
     position: relative;
     display: inline-block;
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-left: 50px;
   }
@@ -969,8 +970,7 @@ footer {
 
   .small-circle {
     width: 100%;
-    padding: 50px;
-    margin-top: 400px;
+    margin-top: 320px;
   }
 
   .x1 {
@@ -1050,7 +1050,7 @@ footer {
     background-color: #301846;
     position: absolute;
     z-index: 1;
-    left: 80%;
+    left: 60%;
     bottom: 20%;
     transform: translateX(-50%);
     box-shadow: 0 5px 15px rgba(39, 9, 113, 0.567);
@@ -1286,7 +1286,7 @@ footer {
   }
 
   .padding1 {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-right: 100px;
     font-family: sans-serif;
     font-size: 20px;
@@ -1295,7 +1295,7 @@ footer {
   .mr-certificate {
     margin-left: 90px;
     margin-bottom: 90px;
-    width: 100px;
+    width: 150px;
     border: none;
     padding: 2px;
   }
