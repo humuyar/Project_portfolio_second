@@ -1181,9 +1181,16 @@ footer {
     margin-right: 1px;
     margin-left: 150px;
     background: rgba(47, 47, 138, 1);
-    width: 100%;
-    height: 500px;
-    margin-top: 20%;
+    width: 150%;
+    height: 900px;
+    margin-top: 40%;
+  }
+
+  .ellipse5 {
+    display: block;
+    position: fixed;
+    width: 30%;
+    margin-left: 1500px;
   }
 
   .navbar {
@@ -1193,7 +1200,7 @@ footer {
     height: 50px;
     background: none;
     position: fixed;
-    margin-left: 60%;
+    margin-left: 55%;
   }
 
   .navbar1 {
