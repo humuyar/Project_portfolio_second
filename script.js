@@ -1,3 +1,13 @@
+  // Hamburger Menu
+  const hamburgerMenu = document.getElementById('hamburger-menu');
+  const mobileMenu = document.getElementById('mobile-menu');
+  hamburgerMenu.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+  document.getElementById('close-button').addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+
 document.addEventListener('DOMContentLoaded', () => {
   // Navbar Scroll Spy
   const navLinks = document.querySelectorAll('.navbar a');
@@ -19,16 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
         link.classList.add('active');
       }
     });
-  });
-
-  // Hamburger Menu
-  const hamburgerMenu = document.getElementById('hamburger-menu');
-  const mobileMenu = document.getElementById('mobile-menu');
-  hamburgerMenu.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
-  });
-  document.getElementById('close-button').addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
   });
 
   // Dropdown Menus
