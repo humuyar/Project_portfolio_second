@@ -706,15 +706,15 @@ footer {
   display: none;
 }
 
-.linearGradient{
+.linearGradient {
   position: absolute;
   width: 70%;
   margin-left: 10px;
 }
 
 .container-side-by-side {
-  display: flex; 
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -746,10 +746,10 @@ footer {
     text-align: left;
   }
 
-  .container-side-by-side { 
-    display: flex; 
-    flex-direction: row; 
-    flex-wrap: wrap; 
+  .container-side-by-side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   } 
 
   .text2 {
