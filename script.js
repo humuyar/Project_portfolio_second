@@ -21,6 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Hamburger Menu
+  const hamburgerMenu = document.getElementById('hamburger-menu');
+  const mobileMenu = document.getElementById('mobile-menu');
+  hamburgerMenu.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+  document.getElementById('close-button').addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+
   // Dropdown Menus
   document.getElementById('professional-skill').addEventListener('click', () => {
     document.getElementById('mobile-menu1').classList.toggle('hidden');
@@ -43,15 +53,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Content Population
   document.getElementById('home-content').innerHTML = `
-    <div>
-    <p class="colorw txt1 txt">Salaam Alikum!</p>
-    </div>
-    <div>
-    <p class="colorw txt1">I'm Humaira "Qabooli"</p>
-    </div>
-    <div>
-    <p class="colorw txt1">Glad To See You :)</p>
-    </div>
+  Salaam Alikum !
+  <div class='container-side-by-side'>
+  <span>I’m Humaira Qabooli</span> 
+  <span>  Glad To See You:)</span>
+  </div>
   `;
   document.getElementById('about-content').innerHTML = `
   <pre class="colorw">
