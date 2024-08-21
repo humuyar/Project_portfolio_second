@@ -1,33 +1,3 @@
-// Hamburger Menu
-const hamburgerMenu = document.getElementById('hamburger-menu');
-const mobileMenu = document.getElementById('mobile-menu');
-hamburgerMenu.addEventListener('click', () => {
-  mobileMenu.classList.toggle('hidden');
-});
-document.getElementById('close-button').addEventListener('click', () => {
-  mobileMenu.classList.toggle('hidden');
-});
-
-// Dropdown Menus
-document.getElementById('professional-skill').addEventListener('click', () => {
-  document.getElementById('mobile-menu1').classList.toggle('hidden');
-});
-document.getElementById('languages').addEventListener('click', () => {
-  document.getElementById('mobile-menu2').classList.toggle('hidden');
-});
-document.getElementById('soft-skill').addEventListener('click', () => {
-  document.getElementById('mobile-menu3').classList.toggle('hidden');
-});
-document.getElementById('close-button1').addEventListener('click', () => {
-  document.getElementById('mobile-menu1').classList.toggle('hidden');
-});
-document.getElementById('close-button2').addEventListener('click', () => {
-  document.getElementById('mobile-menu2').classList.toggle('hidden');
-});
-document.getElementById('close-button3').addEventListener('click', () => {
-  document.getElementById('mobile-menu3').classList.toggle('hidden');
-});
-
 document.addEventListener('DOMContentLoaded', () => {
   // Navbar Scroll Spy
   const navLinks = document.querySelectorAll('.navbar a');
@@ -51,6 +21,25 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Dropdown Menus
+  document.getElementById('professional-skill').addEventListener('click', () => {
+    document.getElementById('mobile-menu1').classList.toggle('hidden');
+  });
+  document.getElementById('languages').addEventListener('click', () => {
+    document.getElementById('mobile-menu2').classList.toggle('hidden');
+  });
+  document.getElementById('soft-skill').addEventListener('click', () => {
+    document.getElementById('mobile-menu3').classList.toggle('hidden');
+  });
+  document.getElementById('close-button1').addEventListener('click', () => {
+    document.getElementById('mobile-menu1').classList.toggle('hidden');
+  });
+  document.getElementById('close-button2').addEventListener('click', () => {
+    document.getElementById('mobile-menu2').classList.toggle('hidden');
+  });
+  document.getElementById('close-button3').addEventListener('click', () => {
+    document.getElementById('mobile-menu3').classList.toggle('hidden');
+  });
 
   // Content Population
   document.getElementById('home-content').innerHTML = `
