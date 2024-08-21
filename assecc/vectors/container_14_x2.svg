@@ -1,0 +1,19 @@
+<svg width="1804" height="1036" viewBox="0 0 1804 1036" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M1804,706C1804,888.254 1561.338,1036 1262,1036C962.662,1036 720,888.254 720,706C720,523.746 962.662,376 1262,376C1561.338,376 1804,523.746 1804,706Z" fill="url(#pf_0_26_678)"/>
+<path d="M768,377C768,585.212 596.078,754 384,754C171.923,754 0,585.212 0,377C0,168.789 171.923,0 384,0C596.078,0 768,168.789 768,377Z" fill="url(#pf_0_32_213)"/>
+<path d="M836,580C836,676.098 749.144,754 642,754C534.857,754 448,676.098 448,580C448,483.902 534.857,406 642,406C749.144,406 836,483.902 836,580Z" fill="url(#pf_0_32_214)"/>
+<defs>
+<radialGradient id="pf_0_26_678" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 165 -271 0 631 353)">
+<stop stop-color="#763CAC"/>
+<stop offset="1" stop-color="#320F85" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="pf_0_32_213" x1="384" y1="0" x2="384" y2="754" gradientUnits="userSpaceOnUse">
+<stop stop-color="#301080" stop-opacity="0.6"/>
+<stop offset="1" stop-color="#7840AD" stop-opacity="0.36"/>
+</linearGradient>
+<linearGradient id="pf_0_32_214" x1="642" y1="406" x2="642" y2="754" gradientUnits="userSpaceOnUse">
+<stop stop-color="#301080" stop-opacity="0.6"/>
+<stop offset="1" stop-color="#7840AD" stop-opacity="0.36"/>
+</linearGradient>
+</defs>
+</svg>
