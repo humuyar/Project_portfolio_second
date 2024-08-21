@@ -43,20 +43,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Content Population
   document.getElementById('home-content').innerHTML = `
+    <div>
     <p class="colorw txt1 txt">Salaam Alikum!</p>
-    <p class="colorw txt1">I'm Sodaba Rauf</p>
+    </div>
+    <div>
+    <p class="colorw txt1">I'm Humaira "Qabooli"</p>
+    </div>
+    <div>
     <p class="colorw txt1">Glad To See You :)</p>
+    </div>
   `;
   document.getElementById('about-content').innerHTML = `
-    <pre class="colorw">
-My name is Humaira "Qabooli".
-I'm a WEB Developer.
-I'm currently working with
-VSCode and GitHub.
-My goal is to make
-a professional web page that
-will interest people.
-    </pre>
+  <pre class="colorw">
+  My name is Humaira "Qabooli".
+  I'm a WEB Developer.
+  I'm currently working with
+  VSCode and GitHub.
+  My goal is to make
+  a professional web page that
+  will interest people.
+  </pre>
   `;
 
   // Sample project data
